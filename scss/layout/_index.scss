@@ -1,0 +1,15 @@
+
+main{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-animation: bg-pan-right 8s infinite alternate both;
+	        animation: bg-pan-right 8s infinite alternate both;
+    section{
+        width: 80%;
+        -webkit-animation: bg-pan-right 8s infinite alternate both;
+	        animation: bg-pan-right 8s infinite alternate both;
+            
+    }
+}
