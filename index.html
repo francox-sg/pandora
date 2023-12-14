@@ -8,29 +8,39 @@
 </head>
 
 <body>
-    <header>
-        <div>
+    <header class="headerGrid">
+        <div class="headerGrid-logo">
+            <img src="./assets/img/logoPandora.png" alt="Logo pandora">
+            <p>pandora</p>
+        </div>
+        <div class="headerGrid-busqueda">
+            <label for="busqueda"></label>
+            <input id="busqueda" type="text" placeholder="Busqueda">
+            <img src="./assets/img/search16px.png" alt="Icono de Busqueda">
+        </div>
+        <div class="headerGrid-ingresar">
+            <a href="">Ingresar</a>
             <div>
-                <img src="" alt="Logo pandora">
-                <p>pandora</p>
-            </div>
-            <div>
-                <label for="busqueda"></label>
-                <input id="busqueda" type="text">
-                <img src="" alt="Icono de Busqueda">
-            </div>
-            <div>
-                <a href="">Ingresar</a>
-                <img src="" alt="Icono Ingresar">
+                <img src="./assets/img/login 56px.png" alt="Avatar">
             </div>
         </div>
-        <nav>
+        <nav class="headerGrid-nav">
             <ul>
                 <li><a href="">Categorias</a></li>
                 <li><a href="">Ofertas</a></li>
                 <li><a href="">Regalá</a></li>
             </ul>
         </nav>
+        <div class="headerGrid-ubicacionCarrito">
+            <div>
+                <p>Ubicacion</p>
+                <img src="./assets/img/ubicacion16px.png" alt="Pin Ubicacion">
+            </div>
+            <div>
+                <p>Tu Carrito</p>
+                <img src="./assets/img/carritoNaranja56pxDer.png" alt="Imagen Carrito">
+            </div>
+        </div>
     </header>
     <main>
         <!-- Seccion Premium -->
